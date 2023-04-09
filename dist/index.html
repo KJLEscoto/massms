@@ -10,85 +10,100 @@
   <link rel="shortcut icon" type="x-icon" href="../dist/img/robust-robot-icon.svg">
 </head>
 
-<body>
-
-  <header class="bg-no-repeat bg-center w-full h-screen"
+<body class="transition-all duration-300 ease-in overflow-x-hidden">
+  <header class="bg-no-repeat bg-center w-full xl:h-screen md:h-screen h-[1000px] m-auto"
     style="background-image: url(../dist/img/main-background.svg);">
-    <nav class="justify-between flex py-5">
-      <!-- <img class="ml-52" src="../dist/img/masmss.svg" alt=""> -->
-      <ul class="text-gray-400 flex ml-16">
+    <nav class="flex justify-between xl:py-5 py-0">
+      <img class="xl:ml-52 ml-10 cursor-pointer w-[150px]" src="../dist/img/masmss.svg" alt="">
+      <div class="xl:hidden flex cursor-pointer">
+        <img class="w-[120px] h-[80px]" src="../dist/img/menu.jpg" alt="">
+      </div>
+      <ul class="text-gray-400 ml-16 cursor-pointer xl:flex hidden">
         <li class="px-5 mt-8">Home</li>
         <li class="px-5 mt-8">Solutions</li>
         <li class="px-5 mt-8">Pricing</li>
         <li class="px-5 mt-8">API Guide</li>
         <li class="px-5 mt-8">Blog</li>
       </ul>
-      <div class="mt-6 mr-52">
-        <button class="border-2 border-gray-400 text-gray-400 px-10 py-2 rounded-full">Log in</button>
-        <button class="bg-[#ffe367] px-10 py-2.5 rounded-full ml-2 font-bold text-gray-700">Try Now</button>
+      <div class="mt-6 mr-52 ml-5 xl:flex hidden">
+        <button
+          class="border-2 border-gray-400 text-gray-400 mr-3 px-10 py-2 rounded-full font-bold hover:bg-[#ffe367] hover:text-[#2b1844] duration-300 ease-in-out">Log
+          in</button>
+        <button
+          class="bg-[#ffe367] border-2 border-[#ffe367] px-10 py-2 rounded-full ml-2 font-bold text-[#2b1844] hover:scale-95 transition-all duration-150 ease-in-out">Try
+          Now</button>
       </div>
     </nav>
 
-    <div class="mt-28 flex">
-      <div class="px-52">
-        <h1 class="font-bold text-gray-100 text-8xl">Unlimited <br> Bulk SMS</h1>
-        <p class=" text-gray-300 ml-1 mt-3 text-lg leading-tight ">Massms is a fully-featured SMS & mobile marketing
+    <div class="xl:mt-28 md:mt-20 mt-16 xl:flex">
+      <div class="xl:px-52 text-center md:px-36 xl:text-left md:text-left transition-all duration-300 ease-in">
+        <h1 class="font-extrabold text-gray-100 text-7xl">Unlimited <br> Bulk SMS</h1>
+        <p class=" text-gray-300 ml-1 mt-3 xl:text-lg leading-tight text-sm">Massms is a fully-featured SMS & mobile
+          marketing
           platform
           <br>
           that doesn't stop you from scaling.
         </p>
-        <button class="rounded-full px-[80px] py-[15px] bg-[#ffe367] flex mt-14 font-semibold text-gray-700">Try it
+        <button
+          class="rounded-full px-[80px] py-[15px] bg-[#ffe367] xl:flex inline-flex content-center mt-14 font-semibold text-[#2b1844] hover:bg-gray-100 duration-200 ease-in-out xl:text-base text-sm">
+          Try
+          it
           out
           for free
-          <img class="mt-1 ml-3" src="../dist/img/arrow-right.svg" alt="">
+          <img class="mt-1 xl:ml-3 ml-5 w-7 xl:w-10" src="../dist/img/arrow-right.svg" alt="">
         </button>
-        <div class="flex mt-10 text-sm">
-          <img src="../dist/img/yellow-check.svg" alt="">
-          <p class="ml-2 text-gray-300 mr-8">2-minute setup</p>
-          <img src="../dist/img/yellow-check.svg" alt="">
-          <p class="ml-2 text-gray-300">No credit card required</p>
+        <div class="xl:flex md:flex inline-flex sm:justify-normal justify-center sm:flex xl:mt-10 mt-5 text-sm z-40">
+          <img class="w-5 xl:w-auto" src="../dist/img/yellow-check.svg" alt="">
+          <p class="xl:ml-2 ml-1 text-gray-300 xl:mr-8 mr-4">2-minute setup</p>
+          <img class="w-5 xl:w-auto" src="../dist/img/yellow-check.svg" alt="">
+          <p class="xl:ml-2 ml-1 text-gray-300">No credit card required</p>
         </div>
-        <img class="w-[1050px] absolute right-0 top-[185px]" src="../dist/img/main-model.svg" alt="">
+        <img
+          class="xl:w-[1050px] md:w-[800px] relative xl:left-[260px] xl:-top-[418px] top-[165px] md:left-[200px] md:-top-[320px] scale-150 xl:scale-100 md:scale-100"
+          src="../dist/img/main-model.svg" alt="">
       </div>
     </div>
   </header>
 
-  <div class="bg-white w-full pt-20">
+  <div class="bg-white w-full h-auto xl:pt-20 pt-10">
     <div class="text-center mb-24">
-      <h1 class="font-extrabold text-3xl leading-none tracking-wide text-[#2b1844]">Setup <span
-          class="text-[#49aae7]">Smart & Bulk
+      <h1 class="font-extrabold xl:text-3xl md:text-3xl text-2xl leading-none tracking-normal text-[#2b1844]">Setup
+        <span class="text-[#49aae7]">Smart & Bulk
           SMS</span>
         <br>
         For Your Brand In Minutes
       </h1>
-      <p class="mt-4 leading-tight text-gray-300 text-lg">Setup automated text messaging throughout your business
-        operations in
-        just a few <br>
+      <p class="mt-4 leading-tight text-gray-300 xl:text-lg text-xl xl:mx-0 md:mx-0 sm:mx-0 mx-16">Setup
+        automated text
+        messaging
+        throughout your
+        business
+        operations <br class="xl:hidden md:hidden lg:hidden block"> in
+        just a few <br class="hidden xl:block md:block sm:block">
         minutes, and
-        scale without
+        scale <br class="block xl:hidden md:hidden lg:hidden"> without
         worrying about upgrades and extra costs!</p>
     </div>
 
-
-    <img class="flex absolute -left-80 -mt-12" src="../dist/img/blue-circle.svg" alt="">
-
-    <div class="flex justify-center mt-0 border-2 border-red-400">
-      <section class="border-2 border-red-400 -mb-10 z-10">
-        <p class="font-bold text-sm text-[#49aae7] mb-5 ml-8">#1: <span class=" text-indigo-950">Install App</span>
+    <!-- <div class="flex justify-center mt-0 -mb-36">
+      <img class="absolute -left-80 -mt-12" src="../dist/img/blue-circle.svg" alt="">
+      <section class="z-10">
+        <p class="font-extrabold text-sm text-[#49aae7] mb-5 ml-8">#1: <span class=" text-[#2b1844]">Install App</span>
         </p>
-        <p class="text-gray-500 bg-white py-5 pl-7 pr-[210px] rounded-xl text-sm shadow-md">Scan a QR code and <br>
+        <p class="text-gray-500 bg-white py-5 pl-7 pr-[180px] rounded-xl text-sm shadow-md">Scan a QR code and <br>
           instantly
           install
           the <br>
           mobile app on your <br> android device
         </p>
-        <img class="relative w-8/12 -top-[148px] left-[160px]" src="../dist/img/install-app.svg" alt="">
+        <img class="w-[200px] relative -top-[150px] left-[160px]" src="../dist/img/install-app.svg" alt="">
       </section>
 
-      <img class="mt-24 mx-4 w-3 h-full" src="../dist/img/d-r-arrow.png" alt="">
+      <img class="mt-24 mx-4 w-3 h-full opacity-20 hidden xl:block" src="../dist/img/d-r-arrow.png" alt="">
 
       <section class="">
-        <p class="font-bold text-sm text-[#49aae7] mb-5 ml-8">#2: <span class=" text-indigo-950">Import Contacts</span>
+        <p class="font-extrabold text-sm text-[#49aae7] mb-5 ml-8">#2: <span class=" text-[#2b1844]">Import
+            Contacts</span>
         </p>
         <p class="text-gray-500 bg-white pt-5 pb-10 pl-7 pr-[120px] rounded-xl text-sm shadow-md">
           Upload any csv file with your <br> contacts and <br>
@@ -97,10 +112,11 @@
         <img class="relative w-[300px] -top-[130px] left-[55px]" src="../dist/img/import-contact.svg" alt="">
       </section>
 
-      <img class="mt-24 mx-4 w-3 h-full" src="../dist/img/d-r-arrow.png" alt="">
+      <img class="mt-24 mx-4 w-3 h-full opacity-20" src="../dist/img/d-r-arrow.png" alt="">
 
       <section class="">
-        <p class="font-bold text-sm text-[#49aae7] mb-5 ml-8">#3: <span class=" text-indigo-950">Schedule SMS</span>
+        <p class="font-extrabold text-sm text-[#49aae7] mb-5 ml-8">#3: <span class=" text-[#2b1844]">Schedule
+            SMS</span>
         </p>
         <p class="text-gray-500 bg-white pt-4 pb-6 pl-7 pr-[140px] rounded-xl text-sm shadow-md">
           Formulate your message, <br> choose a contacts <br> group, and schedule <br>
@@ -108,21 +124,211 @@
         </p>
         <img class="relative w-[180px] -top-[170px] left-[140px]" src="../dist/img/schedule-sms.svg" alt="">
       </section>
+    </div> -->
+
+
+
+    <div class="justify-center content-center flex -mt-10 xl:-mt-0 mb-[980px] xl:mb-0">
+      <img class="absolute -left-80 -mt-12" src="../dist/img/blue-circle.svg" alt="">
+      <section class="z-10 xl:px-20 px-14 m-auto absolute xl:left-32">
+        <p class="font-extrabold xl:text-sm text-lg text-[#49aae7] mb-5 ml-8">#1: <span class=" text-[#2b1844]">Install
+            App</span>
+        </p>
+        <p class="text-gray-500 bg-white py-5 pl-7 xl:pr-[180px] pr-[200px] rounded-xl xl:text-sm text-base shadow-md">
+          Scan a QR code
+          and
+          <br>
+          instantly
+          install
+          the <br>
+          mobile app on your <br> android device
+        </p>
+        <img class="xl:w-[200px] w-[250px] relative -top-[150px] xl:left-[160px] left-[170px]"
+          src="../dist/img/install-app.svg" alt="">
+      </section>
+
+      <img class="mt-24 mx-4 w-3 absolute left-[540px] opacity-20 hidden xl:block" src="../dist/img/d-r-arrow.png"
+        alt="">
+
+      <section class="z-20 xl:px-20 px-14 xl:mt-0 mt-[350px] m-auto absolute xl:left-[505px]">
+        <p class="font-extrabold xl:text-sm text-lg text-[#49aae7] mb-5 ml-8">#2: <span class=" text-[#2b1844]">Import
+            Contacts</span>
+        </p>
+        <p class="text-gray-500 bg-white pt-5 pb-10 pl-7 pr-[120px] rounded-xl xl:text-sm text-base shadow-md">
+          Upload any csv file with your <br> contacts and <br>
+          you're all set!
+        </p>
+        <img class="relative xl:w-[350px] w-[400px] xl:-top-[135px] -top-[150px] left-[50px]"
+          src="../dist/img/import-contact.svg" alt="">
+      </section>
+
+      <img class="mt-24 mx-4 w-3 absolute left-[940px] opacity-20 hidden xl:block" src="../dist/img/d-r-arrow.png"
+        alt="">
+
+      <section class="z-30 xl:px-20 px-14 xl:mt-0 mt-[630px] m-auto absolute xl:left-[910px]">
+        <p class="font-extrabold xl:text-sm text-lg text-[#49aae7] mb-5 ml-8">#3: <span class=" text-[#2b1844]">Schedule
+            SMS</span>
+        </p>
+        <p
+          class="text-gray-500 bg-white pt-4 pb-6 pl-7 xl:pr-[140px] pr-[160px] rounded-xl xl:text-sm text-base shadow-md">
+          Formulate your message, <br> choose a contacts <br> group, and schedule <br>
+          your campaign.
+        </p>
+        <img class="relative xl:w-[180px] w-[220px] -top-[170px] left-[140px]" src="../dist/img/schedule-sms.svg"
+          alt="">
+      </section>
     </div>
 
-    <div class="border-2 border-red-400">
-      yow
-      <img class="w-[800px] relative -top-[180px]" src="../dist/img/model-2.svg" alt="">
+    <!-- <div class="xl:flex flex-row-reverse align-middle content-center justify-center">
+      <div>
+        <img class="w-[500px] z-20 absolute" src="../dist/img/creative-women.png" alt="">
+      </div>
+      <div class="mt-20 ml-14">
+        <h1 class="font-extrabold text-3xl text-[#2b1844]">Let Your Mobile Carrier Do All <br> The Heavy Lifting, <br>
+          <span class="text-[#49aae7]"> While We Take Care Of The Rest.</span>
+        </h1>
+        <p class="mt-5 text-gray-300 text-lg leading-tight tracking-wide">You're already paying for an
+          unlimited data
+          plan, <br>
+          but with Massms, you'll actually be using it.
+        </p>
+        <button
+          class="flex mt-10 bg-[#ffe367] py-3 px-10 rounded-full font-semibold mb-7 border-2 border-[#ffe367] hover:border-gray-400 hover:bg-white duration-300 ease-in-out">
+          Start free <img class="mt-[5px] ml-2" src="../dist/img/arrow-right.svg" alt="">
+        </button>
+        <div class="flex mb-3">
+          <img class="mr-2" src="../dist/img/like.svg" alt="">
+          <p class="text-gray-500 text-sm">No credit card required</p>
+        </div>
+        <div class="flex mb-3">
+          <img class="mr-2" src="../dist/img/like.svg" alt="">
+          <p class="text-gray-500 text-sm">Live chat support</p>
+        </div>
+        <div class="flex">
+          <img class="mr-2" src="../dist/img/like.svg" alt="">
+          <p class="text-gray-500 text-sm">Quick setup</p>
+        </div>
+      </div>
+    </div> -->
+
+    <div class="xl:flex xl:flex-wrap flex flex-wrap-reverse justify-center xl:mt-80">
+      <div class="mt-10 xl:mt-0 z-10 -ml-10">
+        <img class="w-[430px] xl:w-[500px] z-20" src="../dist/img/creative-women.png" alt="">
+      </div>
+      <div class="xl:mt-20 xl:ml-20 ml-0 text-center xl:text-left justify-center -mt-10">
+        <h1 class="font-extrabold xl:text-3xl text-2xl text-[#2b1844]">Let Your Mobile Carrier Do All <br> The Heavy
+          Lifting, <br>
+          <span class="text-[#49aae7]"> While We Take Care Of The Rest.</span>
+        </h1>
+        <p class="mt-5 text-gray-300 text-lg leading-tight tracking-wide">You're already paying for an
+          unlimited data
+          plan, <br>
+          but with Massms, you'll actually be using it.
+        </p>
+        <button
+          class="flex xl:mt-10 mt-5 bg-[#ffe367] py-3 xl:px-10 px-8 rounded-full font-semibold text-sm xl:text-base mb-7 border-2 border-[#ffe367] hover:border-gray-400 hover:bg-white duration-300 ease-in-out m-auto xl:ml-0">
+          Start free <img class="mt-[5px] ml-2 xl:w-9 w-7" src="../dist/img/arrow-right.svg" alt="">
+        </button>
+        <div class="justify-center pl-28 xl:pl-0">
+          <div class="flex mb-3">
+            <img class="mr-2" src="../dist/img/like.svg" alt="">
+            <p class="text-gray-500 xl:text-sm text-base">No credit card required</p>
+          </div>
+          <div class="flex mb-3">
+            <img class="mr-2" src="../dist/img/like.svg" alt="">
+            <p class="text-gray-500 xl:text-sm text-base">Live chat support</p>
+          </div>
+          <div class="flex">
+            <img class="mr-2" src="../dist/img/like.svg" alt="">
+            <p class="text-gray-500 xl:text-sm text-base">Quick setup</p>
+          </div>
+        </div>
+
+      </div>
     </div>
 
+    <hr class="border w-full hidden xl:block">
 
+    <div class="xl:mt-40 mt-20 text-center object-center justify-center xl:h-[570px] h-auto">
+      <img class="absolute xl:left-0 -left-[70px] xl:scale-100 scale-50 xl:top-[2050px] top-[2975px]"
+        src="../dist/img/decor-left.png" alt="">
+      <img class="absolute xl:right-0 -right-[60px] xl:scale-100 scale-50 xl:top-[1900px] top-[2950px]"
+        src="../dist/img/decor-right.png" alt="">
+      <img class="m-auto xl:w-36 w-24 mb-2 xl:mb-0" src="../dist/img/robust-robot-icon.svg" alt="">
+      <h1 class="font-extrabold xl:text-3xl text-xl text-[#2b1844] xl:leading-tight leading-none">Robust,
+        Comprehensive,
+        <br>
+        <span class="text-[#49aae7]">Fully-Documented</span> API
+      </h1>
+      <p class="mt-5 xl:text-xl text-lg text-[#49aae7] m-auto leading-tight xl:px-0 px-14">Seamlessly connect your CRM,
+        ERPs,
+        marketing
+        platforms, <br class="xl:block hidden">
+        and most popular business management and marketing systems.
+      </p>
+      <div class="z-10 mt-3 xl:mt-0">
+        <p class="mt-1 text-gray-400 xl:text-xl text-lg m-auto leading-tight xl:px-0 px-14 text-opacity-50">
+          (Our extensive API was designed with simplicity in mind, while <br class="block xl:hidden">
+          encompassing <br class="hidden xl:block">
+          enough features to <br class="xl:hidden block"> allow
+          for
+          usage versatility from a <br class="xl:hidden block"> variety of users.)
+        </p>
+
+
+        <div
+          class="xl:mt-20 grid xl:grid-rows-3 xl:grid-cols-3 grid-cols-1 text-gray-400 text-opacity-75 mt-8 mb-20 xl:h-[170px] h-auto justify-center content-center">
+          <div class="m-auto ml-20 xl:ml-52">
+            <div class="flex py-1">
+              <img class="xl:w-5 w-7 xl:mr-3 mr-5" src="../dist/img/star.svg" alt="">
+              <p class="xl:text-lg text-2xl">OTP authentication</p>
+            </div>
+            <div class="flex py-1">
+              <img class="xl:w-5 w-7 xl:mr-3 mr-5" src="../dist/img/star.svg" alt="">
+              <p class="xl:text-lg text-2xl">Cart abandonment funnels</p>
+            </div>
+            <div class="flex py-1">
+              <img class="xl:w-5 w-7 xl:mr-3 mr-5" src="../dist/img/star.svg" alt="">
+              <p class="xl:text-lg text-2xl">eCommerce autoresponders</p>
+            </div>
+          </div>
+
+          <div class="m-auto ml-20 xl:ml-32">
+            <div class="flex py-1">
+              <img class="xl:w-5 w-7 xl:mr-3 mr-5" src="../dist/img/star.svg" alt="">
+              <p class="xl:text-lg text-2xl">Seasonal promotions</p>
+            </div>
+            <div class="flex py-1">
+              <img class="xl:w-5 w-7 xl:mr-3 mr-5" src="../dist/img/star.svg" alt="">
+              <p class="xl:text-lg text-2xl">Two-factor authentication</p>
+            </div>
+            <div class="flex py-1">
+              <img class="xl:w-5 w-7 xl:mr-3 mr-5" src="../dist/img/star.svg" alt="">
+              <p class="xl:text-lg text-2xl">Integrate SMS into your apps</p>
+            </div>
+          </div>
+
+          <div class="m-auto ml-20 xl:ml-10">
+            <div class="flex py-1">
+              <img class="xl:w-5 w-7 xl:mr-3 mr-5" src="../dist/img/star.svg" alt="">
+              <p class="xl:text-lg text-2xl">Sync contacts from your CRM</p>
+            </div>
+            <div class="flex py-1">
+              <img class="xl:w-5 w-7 xl:mr-3 mr-5" src="../dist/img/star.svg" alt="">
+              <p class="xl:text-lg text-2xl">Create complex chat bots</p>
+            </div>
+            <div class="flex py-1">
+              <img class="xl:w-5 w-7 xl:mr-3 mr-5" src="../dist/img/star.svg" alt="">
+              <p class="xl:text-lg text-2xl">And more... !</p>
+            </div>
+          </div>
+
+
+
+        </div>
+      </div>
+    </div>
   </div>
-
-
-
-
-
-
 </body>
 
 </html>
